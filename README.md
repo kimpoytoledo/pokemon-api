@@ -73,8 +73,7 @@ Use the `.env-example` file as a reference for creating your own `.env` file. Co
 ```bash
 REDIS_HOST=redis
 REDIS_PORT=6379
-CACHE_TTL=3600
-CACHE_MAX_ITEMS=100
+CACHE_TTL=3 //seconds
 ```
 
 ### Using Docker
