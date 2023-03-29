@@ -1,0 +1,18 @@
+components:
+  schemas:
+    Pokemon:
+      type: object
+      properties:
+        id:
+          type: number
+        name:
+          type: string
+        height:
+          type: number
+        weight:
+          type: number
+      example:
+        id: 1
+        name: "Bulbasaur"
+        height: 0.7
+        weight: 6.9

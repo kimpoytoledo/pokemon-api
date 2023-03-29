@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "plugins": ["@nestjs/swagger/dist/plugin"]
+  },
+  "collection": "@nestjs/schematics",
+  "test": {
+    "jest": {
+      "config": "test/jest-e2e.json"
+    }
+  },
+  "language": "ts"
+}
